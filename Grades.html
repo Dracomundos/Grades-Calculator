@@ -1,0 +1,39 @@
+<script>
+    let grade = 86; //input
+    //switch statements
+    switch (true) {
+        case grade >= 90:
+            output = "You got an A";
+            break;
+        case grade <=80 && >=90:
+            output = "You got a B";
+            break;
+        case 70<=grade>80:
+            output = "You got a C";
+            break;
+        case 60<=grade>70:
+            output = "You go a D";
+            break;
+        case grade<60:
+            output = "You need to start studying!";
+            break;
+        default:
+            output = "No input was received";
+    }
+document.write(output); //Output for switch statements
+
+if(grade >= 90) {
+    outputif = "You got an A";
+} else if (grade <=80 >=90) {
+    outputif = "You got a B";
+} else if (grade <=70 >=80) {
+    outputif = "You got a C";
+} else if (grade <=60 >=70) {
+    outputif = "You go a D";
+} else if (grade<=60) {
+    outputif = "You need to start studying!";
+} else {
+    outputif = "No input was received";
+}
+console.log(outputif); //output fo if-else statement
+</script>
